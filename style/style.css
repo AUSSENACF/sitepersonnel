@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.game-container{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.game-canvas{
+    image-rendering: pixelated;
+}

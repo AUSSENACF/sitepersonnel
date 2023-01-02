@@ -1,5 +1,5 @@
 <?php 
-require_once(realpath($_SERVER['DOCUMENT_ROOT']) . "/language_choice/language.php");
+require_once("../sitePersonnel/language_choice/language.php");
 $browserLanguage = ($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) : "en";
 $language_import = language_Choice($browserLanguage);
 $siteTitle = SITE_TITLE;
